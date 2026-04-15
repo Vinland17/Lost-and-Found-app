@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    color: black;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 260px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px #000;
+}
+
+input, select {
+    padding: 6px;
+    margin: 5px;
+}
+
+button {
+    padding: 6px 12px;
+    background: #ff7e5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e96b50;
+}
+
+.badge {
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+.lost {
+    background: red;
+}
+
+.found {
+    background: green;
+}
